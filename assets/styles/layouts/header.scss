@@ -25,9 +25,6 @@ header {
       font-size: 4rem;
       letter-spacing: 6px;
 
-      @media screen and (max-width: 700px) {
-        font-size: 2rem;
-      }
     }
     p {
       margin: 40px auto 60px;
@@ -82,10 +79,6 @@ header {
         align-items: center;
         cursor: pointer;
 
-        @media screen and (max-width: 700px) {
-          font-size: 0.5rem;
-        }
-
         &:first-child {
           background: $white1;
           color: $black1;
@@ -103,10 +96,6 @@ header {
       max-width: 300px;
       justify-content: space-around;
       margin-right: 10px;
-
-      @media screen and (max-width: 700px) {
-        display: none;
-      }
 
       li {
         transition: 0.15s;
